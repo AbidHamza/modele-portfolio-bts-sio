@@ -1,0 +1,25 @@
+# Réglages du portfolio. Modifiez les quatre lignes ci-dessous, enregistrez,
+# et le site se met à jour tout seul après la publication.
+title: "Prénom Nom"
+description: "Étudiant en BTS SIO, 1re année. Mes réalisations professionnelles, au fil de la formation."
+email: "prenom.nom@ecole.fr"
+linkedin: ""
+
+lang: fr
+
+# Chaque fichier déposé dans le dossier _projets devient une page du site.
+collections:
+  projets:
+    output: true
+    permalink: /projets/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: projets
+    values:
+      layout: projet
+
+exclude:
+  - README.md
+  - LICENSE

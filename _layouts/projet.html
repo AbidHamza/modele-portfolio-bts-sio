@@ -1,0 +1,15 @@
+---
+layout: default
+---
+<article>
+  <h1>{{ page.title }}</h1>
+  <p class="sous-titre">{{ page.date | date: "%m/%Y" }} · {{ page.cadre }}</p>
+
+  <p class="comp-liste">Compétences :
+  {% for c in page.competences %}{% assign comp = site.data.competences | where: "code", c | first %}<span class="comp">{{ comp.libelle }}</span>{% endfor %}
+  </p>
+
+  {{ content }}
+
+  <p><a href="{{ '/' | relative_url }}#projets">Retour aux projets</a></p>
+</article>

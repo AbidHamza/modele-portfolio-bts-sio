@@ -1,0 +1,14 @@
+# Les six compétences du bloc 1 (référentiel BTS SIO, arrêté du 8 juillet 2024).
+# Dans un projet, on les cite par leur code : competences: [c2, c5]
+- code: c1
+  libelle: "Gérer le patrimoine informatique"
+- code: c2
+  libelle: "Répondre aux incidents et aux demandes d'assistance et d'évolution"
+- code: c3
+  libelle: "Développer la présence en ligne de l'organisation"
+- code: c4
+  libelle: "Travailler en mode projet"
+- code: c5
+  libelle: "Mettre à disposition des utilisateurs un service informatique"
+- code: c6
+  libelle: "Organiser son développement professionnel"
