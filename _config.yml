@@ -23,3 +23,6 @@ defaults:
 exclude:
   - README.md
   - LICENSE
+
+# Publier aussi les projets dont la date est postérieure au jour de la publication
+future: true
